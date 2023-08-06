@@ -1,4 +1,9 @@
+#
+#
+#
 # ------------------ Directories
+# Git tracking dir
+.git/
 # npm / pnpm installed modules
 node_modules
 # Temp Directories for VuePress local server
@@ -6,6 +11,7 @@ node_modules
 /docs/.vuepress/.temp/
 # VuePress Build Distribution
 /docs/.vuepress/dist/
+
 # ------------------ Files 
 # This is a Mac specific tracking file in every dir
 *.DS_Store
